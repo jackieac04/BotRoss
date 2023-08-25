@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands, tasks
 import random
-from token import TOKEN
+from botToken import TOKEN
 
 intents = discord.Intents.default()  # This will enable all default intents
 intents.message_content = True
