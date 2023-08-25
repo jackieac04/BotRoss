@@ -1,8 +1,8 @@
 import discord
 from discord.ext import commands, tasks
 import random
+from token import TOKEN
 
-TOKEN = 'MTE0NDM1NzQ3OTA5OTE1ODU1OA.GBcvZ-.Q7p7js3OIXxto8MdAjj-4Q-7CHvGRCJ2hKQs8A'
 intents = discord.Intents.default()  # This will enable all default intents
 intents.message_content = True
 bot = commands.Bot(command_prefix='!', intents=intents)
